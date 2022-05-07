@@ -4,8 +4,8 @@ using System.Data.SqlClient;
 class datebaseConnection
 {
     private string datasource = "WAIANGDESK03";
-    private string database = "SampleStore";
-    bool r = false;
+    private string database = "StudentPerformanceManagement";
+   public bool r = false;
     //private string username;
     //private string password;
     public string message;
@@ -38,7 +38,7 @@ class datebaseConnection
             message = "Error: " + e.Message;
         }
 
-       
+      
     }
 
 
